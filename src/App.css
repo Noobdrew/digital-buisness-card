@@ -113,11 +113,11 @@ button {
   border-radius: 6px;
 }
 
-.about-conteiner {
+.main-conteiner {
   width: 250px;
 }
 
-.about-title {
+.main-title {
   margin: 0;
   padding: 33px 35px;
   padding-bottom: 5px;
@@ -132,7 +132,7 @@ button {
   color: #F5F5F5;
 }
 
-.about-text {
+.main-text {
   width: 250px;
   padding: 0 35px;
   margin: 0;
@@ -145,4 +145,8 @@ button {
 
 
   color: #DCDCDC;
+}
+
+.main-conteiner .interests {
+  padding-top: 20px;
 }

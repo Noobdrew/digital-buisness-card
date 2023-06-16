@@ -1,12 +1,12 @@
 import "./App.css";
 import Socials from "./components/Socials.jsx";
-import About from "./components/About.jsx";
+import Main from "./components/Main.jsx";
 
 function App() {
   return (
     <div className="conteiner">
       <Socials />
-      <About />
+      <Main />
     </div>
   );
 }
