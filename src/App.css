@@ -1,42 +1,114 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+body {
+  margin: 0;
+  background-color: #23252C;
+  display: flex;
+  justify-content: center;
+}
+
+.conteiner {
+  background-color: #1A1B21;
+}
+
+.header-title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
   text-align: center;
+
+  color: #FFFFFF;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.sub-title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.8px;
+  line-height: 15px;
+  text-align: center;
+
+  color: #F3BF99;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header-website {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+
+  text-align: center;
+
+  color: #F5F5F5;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.button-conteiner {
+  display: flex;
+  justify-content: center;
+  gap: 17px;
+  align-items: center;
 }
 
-.card {
-  padding: 2em;
+button {
+  width: 115px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 10px;
+  /* Auto layout */
+
 }
 
-.read-the-docs {
-  color: #888;
+.email {
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  gap: 8px;
+
+  width: 115px;
+  height: 34px;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  /* white */
+
+  background: #FFFFFF;
+  /* gray/300 */
+
+  border: 1px solid #D1D5DB;
+  /* shadow/sm */
+
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+}
+
+.linkedin {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  gap: 8px;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  width: 115px;
+  height: 34px;
+
+  background: #5093E2;
+  /* shadow/sm */
+
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
 }
